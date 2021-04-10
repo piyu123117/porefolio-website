@@ -1,0 +1,53 @@
+body{
+margin:0;
+padding-top: 800px;
+text-align:center;
+}
+.profile{
+width:175px;
+margin-bottom:50px;
+border-radius:50%;
+border:solid 5px;
+}
+#welcome{
+position:absolute;
+bottom:0;
+color: deepskyblue;
+
+background:linear-gradient(green,blue,yellow);
+display: table;
+width:100%;
+height:100%;
+z-index:9;
+}
+#bio{
+padding:50px;
+text-align:center;
+font-family:'Cinzel Decorative',cursive;
+}
+.line{
+height:6px;
+ background-color:yellow;
+width:70px;
+margin:8px auto;
+}
+p{
+ font-size:17px;
+}
+.menu{
+position:fixed;
+background-color:lawngreen;
+width:100%;
+margin-top:0px;
+top: 0px;
+z-index: 10px;
+}
+.links{
+display:inline;
+padding-left:33px;
+padding-right: 25px;
+font-size:26px;
+}
+.links:hover{
+ font-size:30px;
+}
